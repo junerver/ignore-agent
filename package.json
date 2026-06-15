@@ -1,0 +1,11 @@
+{
+  "name": "@junerver/ignore-agent",
+  "version": "1.0.0",
+  "description": "Inject AGENTS.md, CLAUDE.md and .claude/ into .git/info/exclude",
+  "bin": {
+    "ignore-agent": "./bin/cli.js"
+  },
+  "type": "module",
+  "keywords": ["git", "ignore", "agent", "cli"],
+  "license": "MIT"
+}
