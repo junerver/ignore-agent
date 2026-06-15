@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import { existsSync, readFileSync, writeFileSync, mkdirSync, statSync } from "node:fs";
-import { join, resolve, dirname } from "node:path";
+const { existsSync, readFileSync, writeFileSync, mkdirSync, statSync } = require("node:fs");
+const { join, resolve, dirname } = require("node:path");
 
 const ENTRIES = ["AGENTS.md", "CLAUDE.md", ".claude/"];
 const SEPARATOR = "# === ignore-agent ===";
